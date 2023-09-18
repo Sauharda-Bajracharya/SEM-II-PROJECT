@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Vehicle Dynamics.png" type="image/x-icon">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="https://fonts.googleapis.com/css2?family=Handjet&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="work.css">
+    <link rel="stylesheet" href="tires.css">
+    <title>Tires/Tyres</title>
+</head>
+<body>
+
+    <div class="container">
+
+    <div class="navbar">
+        <ul>
+            <li><a href="work.html" class="info">Introduction</a></li>
+            <li><a href="d-train-braking.html" class="d-train-braking">Drivetrain and Braking</a></li>
+            <li><a href="sus-steer.html" class="sus-steer">Suspension and Steering</a></li>
+            <li><a href="d-mass.html" class="d-mass">Distribution of Mass</a></li>
+            <li><a href="#" class="tires active">Tires/Tyres</a></li>
+        </ul>
+
+        <span class="vd">VEHICLE <br> DYNAMICS</span>
+    </div>
+
+    <span class="line"></span>
+    
+    <div class="new">
+        <div class="content">
+            <span class="title">Tires/Tyres</span>
+            <svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path fill="currentColor" d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"></path></svg>
+            <p class="con">The only part of a vehicle that makes direct contact with the road/any surface. It plays a crucial role in ensuring safe driving, performance, and overall handling of a vehicle. </p>
+        </div>
+    </div>
+
+    <svg height="50" width="50" class="bullet">
+        <circle cx="25" cy="25" r="3" stroke="white" stroke-width="3" fill="white" />
+      </svg>
+      <span class="factor">Factors:</span>
+    <div class="d-mass">
+
+        <div class="c-mass">
+            <span class="c-mass-title">Pacejka's Magic Formula:</span>
+            <p class="para-c"> Pacejka's Magic Formula, also known as the "Magic Formula," is a mathematical model created by renowned tire dynamics researcher Hans B. Pacejka. This formula is used to describe and predict tire forces and moments encountered during vehicle dynamics, particularly regarding tire behavior. It holds widespread applications in the automotive industry and motorsports, including tasks like vehicle handling simulations, tire design, and the development of control systems.
+<br><br>
+                The Magic Formula, given by Pacejka, is generally expressed as:<br>
+                </p>
+                <img src="Magic_Formula_Curve.png" alt="Magic_Formula_Curve" class="curve">
+        </div>
+        <span class="formula"> y = D * sin{C * arctan[Bx - E * (Bx - arctan(Bx))]} </span>
+
+        
+
+        <div class="weight-d">
+            <span class="weight-d-title">Pneumatic trail:</span>
+            <p class="para-d">Pneumatic trail, also known as tire trail, is an important concept in vehicle dynamics, particularly in context of tire-road interaction during steering. It significantly influences a vehicle's stability and steering behavior. Pneumatic trail is created by the design of the tire itself. 
+                In most cases, the tire's contact patch (the part of the tire that touches the road) is slightly behind the steering axis. This means that when you turn the steering wheel, the tire has a tendency to "trail" behind the direction of the turn due to its contact point being behind the steering axis.</p>
+        <img src="Tire_pneumatic_trail.png" alt="Tire_pneumatic_trail" class="trail">
+
+        </div>
+
+    </div>
+
+    <span class="line1"></span>
+    </div>
+   
+</body>
+<script src="work.js"></script>
+</html>

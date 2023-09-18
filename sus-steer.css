@@ -1,0 +1,108 @@
+/* Content */
+
+.arrow{
+    position: absolute;
+    margin-top: 5px;
+    /* font-size: 40px; */
+}
+
+.con{
+    font-size: 24px;
+    padding-left: 35px;
+    font-weight: 200;
+    text-align: justify;
+}
+
+.app{
+
+    background-color: #b3cdd1;
+    background-image: -webkit-linear-gradient(315deg, #b3cdd1 36%, #9fa4c4 64%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    position: absolute;
+    top: 30%;
+    left: 21%;
+    padding-left: 35px;
+}
+
+.imgs{
+
+    padding-top: 60px;
+    padding-left: 0%;
+
+}
+
+.car {
+
+    float: left;
+    margin-left: 35px;
+  }
+
+.imgs::after{
+
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.fig{
+
+    margin-left: 35px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.factors{
+
+    background-color: #b3cdd1;
+    background-image: -webkit-linear-gradient(315deg, #b3cdd1 36%, #9fa4c4 64%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    position: absolute;
+    top: 40%;
+    left: 21%;
+    padding-left: 35px;
+}
+
+.ack-geom {
+
+    content: "";
+    display: table;
+    clear: both;
+    color: #f9f9f9;
+    text-align: justify;
+}
+
+.para{
+
+    position: absolute;
+    top: 70%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.bullet{
+
+    position: absolute;
+    top: 39.5%;
+    left: 20%;
+}
+
+.ack-pic{
+
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    top: 72%;
+    left: 87.2%;
+    transform: translate(-50%, -50%);
+
+}

@@ -1,0 +1,139 @@
+/* Main circular navigation container */
+.circle-navbar {
+  position: relative;
+  background: #9fa4c4;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%; /* Use a percentage for border radius */
+  margin: auto;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  cursor: pointer;
+  border: 1em solid #b3cdd1;
+  left: 38em;
+  top: -2em;
+}
+
+/* Circular navigation button icon */
+.circle-navbar::after {
+  content: "";
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  width: 1em;
+  height: 0.2em;
+  border-top: 0.6em double #fff;
+  border-bottom: 0.2em solid #fff;
+}
+
+/* Navigation menu list */
+.circle-navbar ul {
+  list-style: none;
+  padding: 0;
+  transform: rotate(180deg) translateY(-2em);
+  transition: 1s all;
+}
+
+/* Navigation menu list items */
+.circle-navbar li {
+  width: 4.5em;
+  height: 1.4em;
+  padding: 0.2em;
+  margin-top: 0.2em;
+  text-align: center;
+  border-top-right-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  transition: all 1s;
+  background: #b3cdd1;
+  opacity: 0;
+  z-index: -1;
+}
+
+/* Show menu items on hover */
+.circle-navbar:hover li {
+  opacity: 1;
+}
+
+/* Circular background for menu items on hover */
+.circle-navbar:hover ul::before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  display: block;
+  left: 50%;
+  top: -5.0em;
+  border-width: 6.5em;
+  border-radius: 0 7.5em 7.5em 0;
+  border-left: 0;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.01);
+  z-index: -1;
+  cursor: default;
+}
+
+/* Menu item links */
+.circle-navbar a {
+  color: white;
+  text-decoration: none;
+  line-height: 1.5em;
+}
+
+.circle-navbar ul {
+    transform: rotate(180deg) translateY(-2em);
+    transition: 1s all;
+}
+
+.circle-navbar:hover ul {
+    transform: rotate(90deg) translateY(-1em);
+}
+
+.circle-navbar li:hover {
+    background: #9fa4c4;
+    z-index: 10;
+}
+
+/* Adjustments for individual menu items */
+.circle-navbar li:nth-of-type(1) {
+  transform: rotate(-90deg);
+  position: absolute;
+  left: -1.2em;
+  top: -4.2em;
+}
+
+.circle-navbar li:nth-of-type(2) {
+  transform: rotate(-45deg);
+  position: absolute;
+  left: 2em;
+  top: -3.7em;
+}
+
+.circle-navbar li:nth-of-type(3) {
+  position: absolute;
+  left: 3.4em;
+  top: 0.3em;
+  transform: rotate(0deg);
+}
+
+.circle-navbar li:nth-of-type(4) {
+  transform: rotate(45deg);
+  position: absolute;
+  left: 2em;
+  top: 3.7em;
+  
+}
+
+.circle-navbar li:nth-of-type(5) {
+  transform: rotate(90deg);
+  position: absolute;
+  left: -1.2em;
+  top: 4.2em;
+  vertical-align: text-bottom;
+}
+
+.circle-navbar .nav{
+
+  width: 5em;
+  /* border: 1px solid black; */
+  z-index: 999;
+}

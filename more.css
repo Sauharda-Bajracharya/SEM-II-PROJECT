@@ -1,0 +1,136 @@
+@import url(https://fonts.googleapis.com/css2?family=Dosis:wght@100;200;300;400;500;600;800&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: 'Dosis', sans-serif;
+    background-color: #e3e3e3;
+}
+
+
+.title{
+
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.button {
+    position: relative;
+    background-color: transparent;
+    border-radius: 15px;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    border: 2px solid black;
+    color: #171717;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button:hover{
+
+    background: #c9c9c9;
+    cursor: pointer;
+}
+
+.back{
+
+    position: absolute;
+    top: 22.5px;
+    left: 10px;
+    font-weight: 400;
+    
+}
+
+.btn{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+    color: #171717;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: #eeeeee4b;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    border: none;
+    background: #fff;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+   
+   .btn > svg {
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    transition: all 0.4s ease-in;
+   }
+   
+   .btn:hover > svg {
+    font-size: 1.2em;
+    transform: translateX(-5px);
+   }
+   
+   .btn:hover {
+    box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+    transform: translateY(-2px);
+   }
+
+   /* Know More Button */
+
+   .button {
+    border: none;
+    width: 200px;
+    height: 70px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #111011;
+    cursor: pointer;
+    transition: all 0.7s ease-in-out;
+  }
+  
+  
+  .text {
+    font-weight: 250;
+    color: #f6f7f6;
+    font-size: 30px;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #b3cdd1;
+    background-image: -webkit-linear-gradient(315deg, #b3cdd1 0%, #9fa4c4 74%);
+  }
+  
+  .button:hover .text {
+    color: #171717;
+
+  }
+  

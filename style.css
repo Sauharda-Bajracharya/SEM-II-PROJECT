@@ -1,0 +1,102 @@
+@import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@100;200;300;400;500;600;700&display=swap);
+
+body {
+
+  font-family: 'Quicksand', sans-serif;
+}
+
+body {
+
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container {
+
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    text-align: justify;
+    border-radius: 0.2px;
+}
+
+h1 {
+
+    font-size: 36px;
+}
+
+h3{
+
+    font-size: 21px;
+}
+
+.new-title{
+
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 2px;
+}
+
+p {
+
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+.image-grid {
+    margin-top: -40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.image-grid img {
+    margin-top: -10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.layout-heading {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.DB{
+
+    max-width: 100%;
+    height: auto;
+}
+
+.brake-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.brake-grid img {
+    max-width: 100%;
+    height: auto;
+}
+.brake-heading {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.AG{
+
+    max-width: 100%;
+    height: auto;
+}

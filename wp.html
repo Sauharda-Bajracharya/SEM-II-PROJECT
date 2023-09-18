@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Vehicle Dynamics</title>
+</head>
+<body>
+    <header>
+        <h1>Vehicle Dynamics</h1>
+    </header>
+    <div class="container">
+        <section id="introduction">
+            <h2>Introduction to Vehicle Dynamics</h2>
+            <p>Vehicle dynamics is the study of vehicle motion, for example, how the vehicle's forward motion changes in response to driver input, propulsion output, control ambient conditions. Vehicle dynamics is a part of engineering based mainly on classical mechanical principles. It can be applied to motor vehicles (such as cars), bicycles and motorcycles, airplanes and ships.</p>
+        </section>
+        <section id="working-principles">
+            <h2>Factors</h2>
+            <p>There are many aspects that affect vehicle dynamics, they can be grouped into drivetrain and braking, suspension and steering, distribution of mass, and tires.</p>
+            <section class="drivetrain-braking">
+            <h3>1) Drivetrain and Braking</h3>
+            <p><x class="new-title">Automobile Layout:</x><br>
+                Automobile layout means the layout of the engine and wheels. They can be divided into; front-wheel drive(FWD), rear-wheel drive(RWD) and four-wheel drive (4WD).<br><br>
+                <div class="image-grid">
+                    <div>
+                        <p class="layout-heading">Front-wheel drive layout:</p>
+                        <img class="FF" src="Front-wheel.png" alt="Front-wheel Drive" width="320" height="200">
+                    </div>
+                    <div>
+                        <p class="layout-heading">Rear-wheel drive layout:</p>
+                        <img class="RR" src="Rear-wheel.png" alt="Rear-wheel Drive" width="320" height="200">
+                    </div>
+                    <div>
+                        <p class="layout-heading">Four-wheel drive layout 1:</p>
+                        <img class="FR" src="F4-1.png" alt="Four-wheel Drive 1" width="320" height="200">
+                    </div>
+                    <div>
+                        <p class="layout-heading">Four-wheel drive layout 2:</p>
+                        <img class="FR" src="F4-2.png" alt="Four-wheel Drive 2" width="320" height="200">
+                    </div>
+                </div>
+            </p>
+            <p><x class="new-title">Braking system:</x><br>
+                A brake is a mechanical device that inhibits motion by absorbing energy from the moving system. It is used to slow down or stop a moving vehicle, wheel, axle or to prevent its movement, usually achieved by friction.
+                Most brakes commonly use friction between two surfaces pressed together to convert the kinetic energy of the moving object into heat.<br>
+                <div class="brake-grid">
+                    <div>
+                        <p class="brake-heading">Drum Brake:</p>
+                        <img class="DB" src="drum_brake.jpg" alt="Drum Brake 1" width="320" height="200">
+                    </div>
+                    <div>
+                        <p class="brake-heading">Braking system for cars:</p>
+                        <img class="DB" src="car-brake.png" alt="Drum Brake 2" width="320" height="200">
+                        <figcaption>Fig. FAD: Brake disc front <br>FPD: Brake disc rear <br>FPT: Rear brake drum <br>CF: Brake control <br>SF: servo brake <br>PF: Brake Pump <br>SLF: Brake Fluid Reservoir <br>RF: Splitter braking <br>FS: Parking Brake</figcaption>
+                    </div>
+                </div>
+            </p>
+        </section>
+        </section>
+
+        <section class="suspension-steering">
+            <h3>2) Suspension and Steering</h3>
+            <p><x class="new-title">Ackermann Steering Geometry:</x><br>Ackermann steering geometry is a design principle used in the front-wheel steering systems of vehicles, like cars, to help them turn smoothly and efficiently. It was invented by German engineer,  Georg L. Ackermann in 1816 A.D. <br>
+               <br> Ackermann steering geometry is all about making sure that when a vehicle turns, the inside wheel and the outside wheel follow different paths. This is important because the wheels need to cover different distances during a turn, with the inside wheel traveling a shorter distance than the outside wheel.<br><br>
+               Imagine you're driving a car and you want to make a sharp left turn. Ackermann steering ensures that the inside wheel turns at a sharper angle than the outside wheel. This helps both wheels cover the right distances and prevents them from sliding during the turn. When the wheels are aligned correctly with Ackermann steering, it makes turning smoother and reduces tire wear.<br>
+               <img class="AG" src="ackerman-geom.jpg" alt="Ackermann geometry" width="320" height="200">
+            </p>
+        </section>
+
+        <section class="mass-distribution">
+            <h3>3) Distribution of Mass</h3>
+            <p><x class="new-title">Center of Mass:</x><br>
+                The center of mass in a car is a critical concept in vehicle dynamics and design. It refers to the point within the car where the entire weight or mass of the vehicle can be considered to be concentrated or balanced. It depends on the following factors:<br><br>
+            i) <strong>Location</strong>- The center of the mass should be located somewhere around the middle of the car.<br>
+            ii) <strong>Stability</strong>- A lower center of mass is crucial, as it determines more stability.<br>
+            iii) <strong>Handling</strong>- A well distributed center of mass results in more responsive steering, braking, and acceleration.
+            <br><br>
+            <x class="new-title">Weight Distribution:</x><br>
+            Weight distribution is the distribution of weight inside a vehicle, especially cars, airplanes, and trains. Generally, it is written as x/y, where x is a percentage of front weight  and y is a percentage of rear weight. 
+            In a gravity-dependent vehicle, weight distribution directly affects various vehicle characteristics, including handling, acceleration, and traction. For this reason, the weight distribution varies according to the intended use of the vehicle.
+            </p>
+        </section>
+
+        <section class="tires">
+            <h3>4) Tires/Tyres</h3>
+            <p><x class="new-title">Pacejka's Magic Formula:</x><br>
+                Pacejka's Magic Formula, often referred to as the "Magic Formula," is a mathematical model used to describe and predict the tire forces and moments that come into play during vehicle dynamics, particularly in the context of tire behavior. It was developed by Hans B. Pacejka, a renowned tire dynamics researcher. The Magic Formula is widely used in the automotive industry and motorsport for various applications, including vehicle handling simulations, tire design, and control system development.<br>
+                <br>The general form of the Magic Formula, given by Pacejka, is:<br>
+                y = D * sin{C*arctan[Bx-E*(Bx-arctan(Bx))]}</p>
+                <br>
+                <p class="layout-heading">Magic Formula Curve:</p>
+               <img class="AG" src="Magic_Formula_Curve.png" alt="Magic Formula Curve" width="320" height="200">
+               <br><br>
+                <p><x class="new-title">Pneumatic trail:</x><br>
+                    Pneumatic trail, also known as trail, tire trail, or pneumatic trail effect, is an important concept in vehicle dynamics, particularly in the context of how tires interact with the road during steering. It's a key factor in determining a vehicle's stability and steering behavior. Pneumatic trail is created by the design of the tire itself. In most cases, the tire's contact patch (the part of the tire that touches the road) is slightly behind the steering axis. This means that when you turn the steering wheel, the tire has a tendency to "trail" behind the direction of the turn due to its contact point being behind the steering axis.
+                    <br>
+                <p class="layout-heading">Tire Pneumatic Trail:</p>
+               <img class="AG" src="Tire_pneumatic_trail.png" alt="Tire Pneumatic Trail" width="320" height="200">
+        </section>
+    </div>
+</body>
+</html>

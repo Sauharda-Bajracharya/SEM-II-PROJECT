@@ -1,0 +1,172 @@
+/* Content */
+
+.arrow{
+    position: absolute;
+    margin-top: 5px;
+    /* font-size: 40px; */
+}
+
+.con{
+    font-size: 24px;
+    padding-left: 35px;
+    font-weight: 200;
+}
+
+.app{
+
+    background-color: #b3cdd1;
+    background-image: -webkit-linear-gradient(315deg, #b3cdd1 36%, #9fa4c4 64%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    position: absolute;
+    top: 30%;
+    left: 21%;
+    padding-left: 35px;
+}
+
+.imgs{
+
+    padding-top: 60px;
+    padding-left: 0%;
+
+}
+
+.car {
+
+    float: left;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+.imgs::after{
+
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.fig{
+
+    margin-left: 35px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.type{
+
+    background-color: #b3cdd1;
+    background-image: -webkit-linear-gradient(315deg, #b3cdd1 36%, #9fa4c4 64%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    position: absolute;
+    top: 60%;
+    left: 21%;
+    padding-left: 35px;
+}
+
+.dynamics {
+
+    content: "";
+    display: table;
+    clear: both;
+    color: #f9f9f9;
+}
+
+.long{
+
+    float: left;
+    height: 200px;
+    width: 23%;
+    padding: 0 10px;
+    position: absolute;
+    top: 70%;
+    left: 19%;
+    padding-left: 35px;
+    /* border: 1px solid white; */
+    
+}
+
+ .lat {
+
+    float: left;
+    height: 200px;
+    width: 23%;
+    padding: 0 10px;
+    position: absolute;
+    top: 70%;
+    left: 45%;
+}
+
+.ver {
+
+    float: left;
+    height: 200px;
+    width: 23%;
+    padding: 0 10px;
+    position: absolute;
+    top: 70%;
+    left: 70%;
+}
+
+.longi, .late, .vert{
+    font-size: 28px;
+}
+.long-d, .lat-d, .ver-d{
+
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: justify;
+
+}
+
+.lat-d{
+
+    margin-top: 20px;
+}
+
+.ver-d{
+
+    margin-top: 20px;
+}
+
+.bullet{
+
+    position: absolute;
+    top: 59.7%;
+    left: 20%;
+    /* transform: translate(-50%, -50%); */
+}
+
+.bulletin{
+
+    position: absolute;
+    top: 29.5%;
+    left: 20%;
+    /* transform: translate(-50%, -50%); */
+}
+
+.line1{
+
+    width: 1px;
+    height: 150px;
+    border: 1px solid #f9f9f9;
+    position: absolute;
+    top: 71%;
+    left: 43%;
+}
+
+.line2{
+
+    width: 1px;
+    height: 150px;
+    border: 1px solid #f9f9f9;
+    position: absolute;
+    top: 71%;
+    left: 68%;
+}

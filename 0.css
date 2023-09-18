@@ -1,0 +1,66 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0F0E11;
+}
+
+canvas {
+    background-color: #0F0E11;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    border: 2px solid #f9f9f9;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 31%;
+    transform: translate(-50%, -50%);
+}
+
+.slanted-wall{
+
+    width: 10px;
+    height: 330px;
+    background-color: #f9f9f9;
+    position: absolute;
+    top: 381px;
+    left: 589px;
+    rotate: 90deg;
+    overflow: hidden;
+}
+
+.p-wall{
+
+    width: 10px;
+    height: 100px;
+    background-color: #f9f9f9;
+    position: absolute;
+    top: 541.9px;
+    left: 750px;
+    overflow: hidden;
+}
+
+.b-wall{
+
+    width: 10px;
+    height: 330px;
+    background-color: #f9f9f9;
+    position: absolute;
+    top: 471px;
+    left: 589px;
+    rotate: 90deg;
+    overflow: hidden;
+}
+
+.spam-wall{
+
+    width: 10px;
+    height: 100px;
+    background-color: #f9f9f9;
+    position: absolute;
+    top: 591px;
+    left: 430px;
+    transform: translate(-50%, -50%);
+}
